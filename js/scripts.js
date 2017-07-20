@@ -11,8 +11,6 @@ Player.prototype.mark = function() {
   }
 }
 
-
-
 Game.prototype.marked = function() {
   if (this.spaceMarked === false) {
     this.spaceMarked = true;
@@ -23,9 +21,8 @@ Game.prototype.marked = function() {
 
 function Board() {
   this.x = 1;
-  this.y = 2; 
+  this.y = 2;
 }
-
 
 function Game() {
   this.player1 = new Player("Player1");
@@ -47,3 +44,11 @@ var newGame = new Game();
 
 
 // UI Logic -->
+$(document).ready(function() {
+  $(".tic-tac-block").click(function(event) {
+    console.log("HELLO");
+    $(this).css("background-image", "url(img/ximage.jpg)");
+
+    // $("tic-tac-toe").mark(this.spaceMarked());
+  })
+})
