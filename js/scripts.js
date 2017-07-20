@@ -15,7 +15,7 @@ function Game() {
   this.player1 = new Player("Player1");
   this.player2 = new Player("Player2");
   this.currentPlayer = this.player1;
-  this.winningLines = [[1,2,3],[4,5,6],[7,8,9],[1,5,9],[3,5,7]]
+  this.winningLines = [[1,2,3],[4,5,6],[7,8,9],[1,5,9],[3,5,7],[1,4,7],[2,5,8],[3,6,9]]
 }
 
 Game.prototype.switchPlayer = function() {
