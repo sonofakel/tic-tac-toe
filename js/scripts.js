@@ -55,7 +55,7 @@ var newGame = new Game();
 // UI Logic -->
 $(function(){
 
-  $(".space1").click(function(){
-    $(".space1").text(newGame.mark());
+  $(".tic-tac-block").click(function(){
+    $(this).text(newGame.mark());
   });
 });
