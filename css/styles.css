@@ -1,0 +1,16 @@
+.jumbotron {
+text-align: center;
+}
+
+.tic-tac-block {
+  width: 32%;
+  height:200px;
+  display: inline-block;
+  border: 1px black solid;
+  margin: .25em;
+}
+
+.tic-tac-toe {
+  margin-left: 2%;
+
+}
