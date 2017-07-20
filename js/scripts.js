@@ -23,7 +23,7 @@ Game.prototype.marked = function() {
 
 function Board() {
   this.x = 1;
-  this.y = 2;
+  this.y = 2; 
 }
 
 
